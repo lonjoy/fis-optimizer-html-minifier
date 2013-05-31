@@ -1,7 +1,7 @@
 {
     "name" : "fis-optimizer-html-minifier",
     "description" : "A optimizer plugin for fis to compress html by using html-minifier.",
-    "version" : "0.0.8",
+    "version" : "0.0.1",
     "author" : "FIS Team <fis@baidu.com>",
     "homepage" : "http://fis.baidu.com/",
     "keywords": [ "fis" ],

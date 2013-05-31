@@ -12,14 +12,17 @@ module.exports = function(content, file, conf){
 };
 
 module.exports.defaultOptions = {
-    removeCommentsFromCDATA : true,
-    collapseWhitespace : true,
-    collapseBooleanAttributes : true,
-    removeAttributeQuotes : true,
-    removeRedundantAttributes : true,
-    useShortDoctype : true,
-    removeEmptyAttributes : true,
-    removeOptionalTags : true,
-    removeScriptTypeAttributes : true,
-    removeStyleLinkTypeAttributes : true
+    removeComments:                true,
+    removeCommentsFromCDATA:       true,
+//    removeCDATASectionsFromCDATA:  true,
+    collapseWhitespace:            true,
+    collapseBooleanAttributes:     true,
+    removeAttributeQuotes:         true,
+    removeRedundantAttributes:     true,
+    useShortDoctype:               true,
+    removeEmptyAttributes:         true,
+//    removeEmptyElements:           true,
+//    removeOptionalTags:            true,
+    removeScriptTypeAttributes:    true,
+    removeStyleLinkTypeAttributes: true
 };

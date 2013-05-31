@@ -11,7 +11,7 @@ module.exports = function(content, file, conf){
     return minify(content, conf);
 };
 
-module.exports.conf = {
+module.exports.defaultOptions = {
     removeCommentsFromCDATA : true,
     collapseWhitespace : true,
     collapseBooleanAttributes : true,

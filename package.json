@@ -1,14 +1,14 @@
 {
     "name" : "fis-optimizer-html-minifier",
     "description" : "A optimizer plugin for fis to compress html by using html-minifier.",
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "author" : "FIS Team <fis@baidu.com>",
     "homepage" : "http://fis.baidu.com/",
     "keywords": [ "fis", "html", "compress", "compressor", "minify", "minifier" ],
     "main" : "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fouber/fis-optimizer-html-minifier.git"
+        "url": "https://github.com/fis-dev/fis-optimizer-html-minifier.git"
     },
     "engines" : {
         "node" : ">= 0.8.0"
